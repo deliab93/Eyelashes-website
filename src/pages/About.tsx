@@ -37,7 +37,7 @@ const About = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-rose-100 via-pink-100 to-purple-100 py-20">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
             About LuxeLashes
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -58,7 +58,7 @@ const About = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mb-4 shadow-lg">
                   {stat.icon}
                 </div>
-                <div className="text-3xl font-bold text-rose-600 mb-2">{stat.number}</div>
+                <div className="text-3xl font-semibold text-rose-600 mb-2">{stat.number}</div>
                 <div className="text-gray-700 font-medium">{stat.label}</div>
               </div>
             ))}
@@ -70,7 +70,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-r from-rose-50 to-pink-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Our Story
             </h2>
           </div>
@@ -105,7 +105,7 @@ const About = () => {
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Our Values
             </h2>
             <p className="text-xl text-gray-600">
@@ -120,7 +120,7 @@ const About = () => {
                 className="bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-3xl hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-rose-100"
               >
                 <div className="text-4xl mb-4">{value.icon}</div>
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">{value.title}</h3>
+                <h3 className="text-2xl font-semibold mb-4 text-gray-800">{value.title}</h3>
                 <p className="text-gray-700 leading-relaxed">{value.description}</p>
               </div>
             ))}
@@ -132,7 +132,7 @@ const About = () => {
       <section className="py-20 bg-gradient-to-r from-rose-50 to-pink-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Meet Our Expert
             </h2>
             <p className="text-xl text-gray-600">
@@ -145,7 +145,7 @@ const About = () => {
               <div className="w-32 h-32 bg-gradient-to-r from-rose-400 to-pink-400 rounded-full mx-auto mb-6 flex items-center justify-center">
                 <span className="text-5xl">👩‍💼</span>
               </div>
-              <h3 className="text-2xl font-bold mb-2 text-gray-800">Sarah Martinez</h3>
+              <h3 className="text-2xl font-semibold mb-2 text-gray-800">Sarah Martinez</h3>
               <p className="text-rose-600 font-semibold mb-4">Founder & Lead Lash Technician</p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 With over 5 years of experience in the beauty industry and advanced certifications in volume and mega volume techniques, Sarah is passionate about creating beautiful, healthy lash extensions that enhance each client's natural beauty.

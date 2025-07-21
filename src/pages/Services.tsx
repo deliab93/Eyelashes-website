@@ -8,7 +8,7 @@ const Services = () => {
       name: "Classic Lash Extensions",
       description: "One extension applied to each natural lash for a natural, elegant look",
       duration: "1.5 - 2 hours",
-      price: "£120",
+      price: "£95",
       features: [
         "1:1 lash ratio",
         "Natural enhancement",
@@ -22,7 +22,7 @@ const Services = () => {
       name: "Volume Lash Extensions",
       description: "Multiple ultra-fine extensions applied to each natural lash for dramatic volume",
       duration: "2 - 2.5 hours",
-      price: "£180",
+      price: "£140",
       features: [
         "2-5 lashes per natural lash",
         "Fuller, dramatic look",
@@ -36,7 +36,7 @@ const Services = () => {
       name: "Mega Volume Extensions",
       description: "Maximum volume with 6-12 ultra-light extensions per natural lash",
       duration: "2.5 - 3 hours",
-      price: "£220",
+      price: "£175",
       features: [
         "6-12 lashes per natural lash",
         "Maximum volume and drama",
@@ -50,7 +50,7 @@ const Services = () => {
       name: "Lash Fill (2-3 weeks)",
       description: "Maintenance appointment to replace grown-out extensions",
       duration: "1 - 1.5 hours",
-      price: "£65",
+      price: "£50",
       features: [
         "Maintain your lash look",
         "Replace grown-out lashes",
@@ -63,10 +63,10 @@ const Services = () => {
   ];
 
   const addOns = [
-    { name: "Lash Lift", price: "£45", description: "Curl and lift natural lashes" },
-    { name: "Lash Tint", price: "£25", description: "Darken natural lashes" },
-    { name: "Brow Shaping", price: "£35", description: "Perfect your brows" },
-    { name: "Under Eye Patches", price: "£15", description: "Hydrating eye treatment" }
+    { name: "Lash Lift", price: "£35", description: "Curl and lift natural lashes" },
+    { name: "Lash Tint", price: "£20", description: "Darken natural lashes" },
+    { name: "Brow Shaping", price: "£28", description: "Perfect your brows" },
+    { name: "Under Eye Patches", price: "£12", description: "Hydrating eye treatment" }
   ];
 
   return (
@@ -74,7 +74,7 @@ const Services = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-rose-100 via-pink-100 to-purple-100 py-20">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
             Our Services
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -96,7 +96,7 @@ const Services = () => {
                   <div className="text-6xl">👁️</div>
                 </div>
                 <div className="p-8">
-                  <h3 className="text-2xl font-bold mb-3 text-gray-800">{service.name}</h3>
+                  <h3 className="text-2xl font-semibold mb-3 text-gray-800">{service.name}</h3>
                   <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                   
                   <div className="flex items-center gap-6 mb-6">
@@ -105,7 +105,8 @@ const Services = () => {
                       <span className="text-gray-700 font-medium">{service.duration}</span>
                     </div>
                     <div className="flex items-center">
-                      <span className="text-2xl font-bold text-rose-600">{service.price}</span>
+                      
+                      <span className="text-2xl font-semibold text-rose-600">{service.price}</span>
                     </div>
                   </div>
                   
@@ -135,7 +136,7 @@ const Services = () => {
       <section className="py-20 bg-gradient-to-r from-rose-50 to-pink-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Add-On Services
             </h2>
             <p className="text-xl text-gray-600">
@@ -151,7 +152,7 @@ const Services = () => {
               >
                 <div className="flex justify-between items-start mb-3">
                   <h3 className="text-xl font-semibold text-gray-800">{addon.name}</h3>
-                  <span className="text-2xl font-bold text-rose-600">{addon.price}</span>
+                  <span className="text-2xl font-semibold text-rose-600">{addon.price}</span>
                 </div>
                 <p className="text-gray-600">{addon.description}</p>
               </div>
@@ -163,7 +164,7 @@ const Services = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-rose-600 to-pink-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-6">
+          <h2 className="text-4xl font-semibold text-white mb-6">
             Ready to Get Started?
           </h2>
           <p className="text-xl text-rose-100 mb-8">

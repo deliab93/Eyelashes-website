@@ -81,7 +81,7 @@ const CalendarBooking: React.FC<CalendarBookingProps> = ({
               <span>{selectedServiceData.duration_minutes} minutes</span>
             </div>
             <div className="font-semibold text-rose-600">
-              ${selectedServiceData.price}
+              £{selectedServiceData.price}
             </div>
           </div>
         </div>

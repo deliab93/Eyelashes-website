@@ -70,11 +70,10 @@ const Booking = () => {
     return (
       <div className="pt-16 pb-20 min-h-screen bg-gradient-to-br from-rose-50 via-white to-pink-50 flex items-center justify-center">
         <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="bg-white p-12 rounded-3xl shadow-2xl border border-rose-100">
             <div className="w-20 h-20 bg-green-100 rounded-full mx-auto mb-6 flex items-center justify-center">
               <span className="text-3xl">✓</span>
             </div>
-            <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h1 className="text-4xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Booking Confirmed!
             </h1>
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
@@ -93,7 +92,6 @@ const Booking = () => {
             </p>
           </div>
         </div>
-      </div>
     );
   }
 
@@ -102,7 +100,7 @@ const Booking = () => {
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-r from-rose-100 via-pink-100 to-purple-100">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
             Book Your Appointment
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed">
@@ -116,7 +114,7 @@ const Booking = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-rose-100">
             <div className="bg-gradient-to-r from-rose-500 to-pink-500 p-8 text-white text-center">
-              <h2 className="text-3xl font-bold mb-2">Schedule Your Service</h2>
+              <h2 className="text-3xl font-semibold mb-2">Schedule Your Service</h2>
               <p className="text-rose-100">Fill out the form below and we'll confirm your appointment</p>
             </div>
             

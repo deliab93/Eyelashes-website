@@ -85,7 +85,7 @@ const Home = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Why Choose LuxeLashes?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
@@ -114,7 +114,7 @@ const Home = () => {
       <section className="py-20 bg-gradient-to-r from-rose-50 to-pink-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               What Our Clients Say
             </h2>
             <p className="text-xl text-gray-600">Real experiences from our valued customers</p>
@@ -144,7 +144,7 @@ const Home = () => {
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-rose-600 to-pink-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-white mb-6">
+          <h2 className="text-4xl font-semibold text-white mb-6">
             Ready to Transform Your Look?
           </h2>
           <p className="text-xl text-rose-100 mb-8 leading-relaxed">

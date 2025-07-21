@@ -57,28 +57,28 @@ export const useBookingSystem = () => {
             id: '1',
             name: 'Classic Lash Extensions',
             description: 'One extension applied to each natural lash for a natural, elegant look',
-            price: 120,
+            price: 95,
             duration_minutes: 120
           },
           {
             id: '2',
             name: 'Volume Lash Extensions',
             description: 'Multiple ultra-fine extensions applied to each natural lash for dramatic volume',
-            price: 180,
+            price: 140,
             duration_minutes: 150
           },
           {
             id: '3',
             name: 'Mega Volume Extensions',
             description: 'Maximum volume with 6-12 ultra-light extensions per natural lash',
-            price: 220,
+            price: 175,
             duration_minutes: 180
           },
           {
             id: '4',
             name: 'Lash Fill (2-3 weeks)',
             description: 'Maintenance appointment to replace grown-out extensions',
-            price: 65,
+            price: 50,
             duration_minutes: 90
           }
         ]);

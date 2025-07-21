@@ -25,7 +25,9 @@ const Navbar = () => {
               <Sparkles className="h-6 w-6 text-white" />
             </div>
             <span className="text-2xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <span className="text-2xl font-semibold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               LuxeLashes
+            </span>
             </span>
           </Link>
 

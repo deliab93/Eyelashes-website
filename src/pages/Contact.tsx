@@ -6,12 +6,12 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6 text-rose-500" />,
       title: "Location",
-      details: ["123 Beauty Lane", "Los Angeles, CA 90210"]
+      details: ["123 Beauty Lane", "London, SW1A 1AA"]
     },
     {
       icon: <Phone className="h-6 w-6 text-rose-500" />,
       title: "Phone",
-      details: ["(555) 123-4567"]
+      details: ["020 7123 4567"]
     },
     {
       icon: <Mail className="h-6 w-6 text-rose-500" />,
@@ -39,11 +39,11 @@ const Contact = () => {
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-rose-100 via-pink-100 to-purple-100 py-20">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
             Contact Us
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed">
-            We'd love to hear from you! Get in touch with any questions or to schedule your appointment
+            Questions? Call us at <span className="font-semibold text-rose-600">020 7123 4567</span>
           </p>
         </div>
       </section>
@@ -60,7 +60,7 @@ const Contact = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white rounded-full mb-6 shadow-lg">
                   {info.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">{info.title}</h3>
+                <h3 className="text-xl font-medium mb-4 text-gray-800">{info.title}</h3>
                 <div className="text-gray-600 space-y-1">
                   {info.details.map((detail, detailIndex) => (
                     <p key={detailIndex} className="leading-relaxed">{detail}</p>
@@ -79,7 +79,7 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="bg-white rounded-3xl p-8 shadow-xl border border-rose-100">
               <div className="mb-8">
-                <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent flex items-center">
+                <h2 className="text-3xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent flex items-center">
                   <MessageCircle className="h-8 w-8 text-rose-500 mr-3" />
                   Send Us a Message
                 </h2>
@@ -186,30 +186,30 @@ const Contact = () => {
             <div className="space-y-8">
               {/* Map Placeholder */}
               <div className="bg-white rounded-3xl p-8 shadow-xl border border-rose-100">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                <h3 className="text-2xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
                   Find Us
                 </h3>
                 <div className="aspect-video bg-gradient-to-br from-rose-100 to-pink-100 rounded-2xl flex items-center justify-center border-2 border-dashed border-rose-200">
                   <div className="text-center">
                     <MapPin className="h-12 w-12 text-rose-400 mx-auto mb-4" />
                     <p className="text-gray-600 font-medium">Interactive Map</p>
-                    <p className="text-sm text-gray-500">123 Beauty Lane, Los Angeles</p>
+                    <p className="text-sm text-gray-500">123 Beauty Lane, London</p>
                   </div>
                 </div>
                 <div className="mt-6 p-6 bg-rose-50 rounded-2xl border border-rose-100">
                   <h4 className="font-semibold text-gray-800 mb-3">Getting Here</h4>
                   <div className="text-sm text-gray-600 space-y-2">
                     <p>• Plenty of free parking available</p>
-                    <p>• Located in the heart of the beauty district</p>
-                    <p>• Easy access from major highways</p>
-                    <p>• Public transportation nearby</p>
+                    <p>• Located in the heart of London</p>
+                    <p>• Easy access from major roads</p>
+                    <p>• Tube and bus stops nearby</p>
                   </div>
                 </div>
               </div>
 
               {/* Social Media */}
               <div className="bg-white rounded-3xl p-8 shadow-xl border border-rose-100">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+                <h3 className="text-2xl font-semibold mb-6 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
                   Follow Our Journey
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -248,7 +248,7 @@ const Contact = () => {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            <h2 className="text-4xl font-semibold mb-4 bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-600">
@@ -279,7 +279,7 @@ const Contact = () => {
                 key={index}
                 className="bg-gradient-to-br from-rose-50 to-pink-50 p-8 rounded-2xl border border-rose-100 hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="text-xl font-semibold mb-4 text-gray-800">{faq.question}</h3>
+                <h3 className="text-xl font-medium mb-4 text-gray-800">{faq.question}</h3>
                 <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
               </div>
             ))}

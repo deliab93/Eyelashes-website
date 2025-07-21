@@ -8,17 +8,17 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div>
-            <h3 className="text-xl font-bold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
               Contact Us
             </h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-rose-400 flex-shrink-0" />
-                <span className="text-gray-300">123 Beauty Lane, Los Angeles, CA 90210</span>
+                <span className="text-gray-300">123 Beauty Lane, London, SW1A 1AA</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-rose-400 flex-shrink-0" />
-                <span className="text-gray-300">(555) 123-4567</span>
+                <span className="text-gray-300">020 7123 4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-rose-400 flex-shrink-0" />
@@ -29,7 +29,7 @@ const Footer = () => {
 
           {/* Business Hours */}
           <div>
-            <h3 className="text-xl font-bold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
               Business Hours
             </h3>
             <div className="space-y-4">
@@ -46,7 +46,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h3 className="text-xl font-bold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-semibold mb-6 bg-gradient-to-r from-rose-400 to-pink-400 bg-clip-text text-transparent">
               Follow Us
             </h3>
             <div className="flex space-x-4">

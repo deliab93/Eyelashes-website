@@ -89,7 +89,7 @@ serve(async (req) => {
             </div>
             <div style="display: flex; justify-content: space-between; padding: 10px 0;">
               <span style="color: #6b7280; font-weight: 500;">Price:</span>
-              <span style="color: #ec4899; font-weight: 700; font-size: 18px;">$${service.price}</span>
+              <span style="color: #ec4899; font-weight: 700; font-size: 18px;">£${service.price}</span>
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ serve(async (req) => {
             </div>
             <div style="display: flex; justify-content: space-between; padding: 10px 0;">
               <span style="color: #6b7280; font-weight: 500;">Price:</span>
-              <span style="color: #7c3aed; font-weight: 700; font-size: 18px;">$${service.price}</span>
+              <span style="color: #7c3aed; font-weight: 700; font-size: 18px;">£${service.price}</span>
             </div>
           </div>
         </div>
